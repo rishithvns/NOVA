@@ -1,0 +1,11 @@
+step     0 | lr 2.50e-07 | train loss nan acc nan | held-out reward acc 0.000 margin +0.000 prefers chosen 0.328 | chat val loss 1.9075
+step    50 | lr 4.96e-06 | train loss 0.4087 acc 0.927 | held-out reward acc 0.980 margin +28.373 prefers chosen 0.418 | chat val loss 1.9152
+step   100 | lr 4.70e-06 | train loss 0.1095 acc 0.980 | held-out reward acc 0.982 margin +57.703 prefers chosen 0.512 | chat val loss 1.9363
+step   150 | lr 4.23e-06 | train loss 0.0491 acc 0.988 | held-out reward acc 0.982 margin +76.546 prefers chosen 0.582 | chat val loss 1.9494
+step   200 | lr 3.61e-06 | train loss 0.0582 acc 0.975 | held-out reward acc 0.984 margin +92.468 prefers chosen 0.600 | chat val loss 1.9619
+step   250 | lr 2.90e-06 | train loss 0.0295 acc 0.985 | held-out reward acc 0.986 margin +107.183 prefers chosen 0.624 | chat val loss 1.9750
+step   300 | lr 2.17e-06 | train loss 0.0249 acc 0.988 | held-out reward acc 0.986 margin +115.026 prefers chosen 0.634 | chat val loss 1.9792
+step   350 | lr 1.50e-06 | train loss 0.0339 acc 0.988 | held-out reward acc 0.988 margin +120.259 prefers chosen 0.640 | chat val loss 1.9816
+step   400 | lr 9.65e-07 | train loss 0.0375 acc 0.983 | held-out reward acc 0.988 margin +123.850 prefers chosen 0.644 | chat val loss 1.9832
+step   450 | lr 6.19e-07 | train loss 0.0272 acc 0.988 | held-out reward acc 0.988 margin +125.730 prefers chosen 0.646 | chat val loss 1.9828
+step   500 | lr 5.00e-07 | train loss 0.0369 acc 0.990 | held-out reward acc 0.988 margin +126.604 prefers chosen 0.650 | chat val loss 1.9830

@@ -1,0 +1,16 @@
+\begin{table}
+\caption{Zero-shot accuracy (\%, length-normalised, lm-evaluation-harness protocol; $\pm$ 95\% CI).}
+\label{tab:bench}
+\begin{tabular}{lllllll}
+\toprule
+task & arc_challenge & arc_easy & hellaswag & openbookqa & piqa & sciq \\
+model &  &  &  &  &  &  \\
+\midrule
+dense & 20.4 \scriptsize{$\pm$2.5} & 38.6 \scriptsize{$\pm$3.0} & 28.4 \scriptsize{$\pm$2.8} & 25.6 \scriptsize{$\pm$3.8} & 59.8 \scriptsize{$\pm$3.0} & 56.0 \scriptsize{$\pm$3.1} \\
+dense_sft & 21.4 \scriptsize{$\pm$2.5} & 41.3 \scriptsize{$\pm$3.0} & 27.3 \scriptsize{$\pm$2.8} & 24.0 \scriptsize{$\pm$3.7} & 57.9 \scriptsize{$\pm$3.1} & 60.6 \scriptsize{$\pm$3.0} \\
+moe & 21.8 \scriptsize{$\pm$2.6} & 40.3 \scriptsize{$\pm$3.0} & 29.8 \scriptsize{$\pm$2.8} & 25.0 \scriptsize{$\pm$3.8} & 58.8 \scriptsize{$\pm$3.0} & 56.4 \scriptsize{$\pm$3.1} \\
+moe_sft & 21.4 \scriptsize{$\pm$2.5} & 39.3 \scriptsize{$\pm$3.0} & 27.5 \scriptsize{$\pm$2.8} & 25.2 \scriptsize{$\pm$3.8} & 56.1 \scriptsize{$\pm$3.1} & 60.2 \scriptsize{$\pm$3.0} \\
+random guess & 25.0 & 25.0 & 25.0 & 25.0 & 50.0 & 25.0 \\
+\bottomrule
+\end{tabular}
+\end{table}

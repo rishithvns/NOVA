@@ -1,0 +1,16 @@
+\begin{table}
+\caption{AUROC (95\% window-bootstrap CI) of predicting routing instability from the feature ladder. Logistic regression, 5-fold cross-validation grouped by text window. Best in bold.}
+\label{tab:main}
+\begin{tabular}{lllll}
+\toprule
+ & Base (88M) | Consequential (primary) & Base (88M) | Harmful vs harmless (quant.) & Granite (1.3B) | Consequential (primary) & Granite (1.3B) | Harmful vs harmless (quant.) \\
+\midrule
+raw margin & 0.912 \scriptsize{[0.878, 0.941]} & 0.504 \scriptsize{[0.463, 0.545]} & 0.784 \scriptsize{[0.744, 0.846]} & 0.480 \scriptsize{[0.457, 0.516]} \\
+normalized margin & 0.911 \scriptsize{[0.878, 0.941]} & 0.518 \scriptsize{[0.475, 0.562]} & 0.790 \scriptsize{[0.755, 0.842]} & 0.500 \scriptsize{[0.475, 0.534]} \\
+margins & 0.915 \scriptsize{[0.884, 0.942]} & 0.539 \scriptsize{[0.493, 0.585]} & 0.793 \scriptsize{[0.754, 0.848]} & 0.507 \scriptsize{[0.472, 0.552]} \\
+margins + first-order & 0.930 \scriptsize{[0.905, 0.953]} & 0.524 \scriptsize{[0.474, 0.571]} & \textbf{0.852} \scriptsize{[0.817, 0.894]} & 0.526 \scriptsize{[0.490, 0.574]} \\
+margins + first-order + curvature & 0.924 \scriptsize{[0.896, 0.950]} & \textbf{0.589} \scriptsize{[0.530, 0.640]} & 0.834 \scriptsize{[0.804, 0.870]} & \textbf{0.557} \scriptsize{[0.534, 0.582]} \\
+all features & \textbf{0.951} \scriptsize{[0.929, 0.969]} & 0.580 \scriptsize{[0.523, 0.634]} & 0.852 \scriptsize{[0.832, 0.894]} & 0.551 \scriptsize{[0.527, 0.580]} \\
+\bottomrule
+\end{tabular}
+\end{table}

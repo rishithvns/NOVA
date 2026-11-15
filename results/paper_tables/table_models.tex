@@ -1,0 +1,15 @@
+\begin{table}
+\caption{Held-out test results (evaluated once). Parameters in millions.}
+\label{tab:models}
+\begin{tabular}{lrrrrrr}
+\toprule
+model & total_params_M & active_params_M & pretrain_test_loss & pretrain_test_perplexity & smoltalk_test_loss (response tokens) & smoltalk_test_perplexity \\
+\midrule
+dense & 88.100 & 88.100 & 3.419 & 30.545 & NaN & NaN \\
+moe & 130.590 & 88.120 & 3.382 & 29.424 & NaN & NaN \\
+moe_nobal & 130.590 & 88.120 & 3.390 & 29.666 & NaN & NaN \\
+dense_sft & 88.100 & 88.100 & 4.051 & 57.472 & 1.927 & 6.866 \\
+moe_sft & 130.590 & 88.120 & 3.995 & 54.340 & 1.896 & 6.656 \\
+\bottomrule
+\end{tabular}
+\end{table}

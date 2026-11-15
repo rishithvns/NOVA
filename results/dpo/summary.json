@@ -1,0 +1,24 @@
+{
+ "steps": 500,
+ "pairs_train": 4000,
+ "pairs_eval": 500,
+ "beta": 0.1,
+ "reward_acc_after": 0.988,
+ "reward_margin_after": 126.6039,
+ "prefers_chosen_before": 0.328,
+ "prefers_chosen_after": 0.65,
+ "chat_val_loss_before": 1.9075,
+ "chat_val_loss_after": 1.983,
+ "minutes": 25.3,
+ "data": {
+  "dataset": "Intel/orca_dpo_pairs",
+  "rows_read": 12859,
+  "kept": 4500,
+  "dropped_too_long_or_invalid": 3143,
+  "train": 4000,
+  "eval": 500,
+  "mean_prompt_tokens": 126.0,
+  "mean_chosen_tokens": 115.3,
+  "mean_rejected_tokens": 192.6
+ }
+}

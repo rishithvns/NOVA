@@ -1,0 +1,18 @@
+\begin{table}
+\caption{Does curvature add information beyond margins and first-order sensitivity? Paired bootstrap over windows (1{,}000 resamples), one-sided; Holm-corrected over the five pre-registered comparisons per target. First row of each model: the primary test.}
+\label{tab:sig}
+\begin{tabular}{lllll}
+\toprule
+Model & Target & $\Delta$AUROC [95\% CI] & $p$ & $p_{\mathrm{Holm}}$ \\
+\midrule
+Base (88M) & Consequential (primary) & -0.005 \scriptsize{[-0.020, 0.007]} & 0.784 & 1.000 \\
+Base (88M) & Harmful vs harmless (quant.) & 0.064 \scriptsize{[0.023, 0.107]} & 0.001 & 0.005 \\
+Base (88M) & Harmful flip & 0.007 \scriptsize{[-0.002, 0.016]} & 0.062 & 0.186 \\
+Base (88M) & Flip under noise & 0.002 \scriptsize{[0.001, 0.003]} & 0.002 & 0.006 \\
+Granite (1.3B) & Consequential (primary) & -0.018 \scriptsize{[-0.034, -0.004]} & 0.996 & 1.000 \\
+Granite (1.3B) & Harmful vs harmless (quant.) & 0.031 \scriptsize{[-0.011, 0.068]} & 0.077 & 0.308 \\
+Granite (1.3B) & Harmful flip & -0.008 \scriptsize{[-0.022, 0.002]} & 0.919 & 1.000 \\
+Granite (1.3B) & Flip under noise & 0.003 \scriptsize{[-0.003, 0.008]} & 0.145 & 0.290 \\
+\bottomrule
+\end{tabular}
+\end{table}

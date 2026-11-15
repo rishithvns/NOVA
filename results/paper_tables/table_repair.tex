@@ -1,0 +1,30 @@
+\begin{table}
+\caption{Repair at a budget under 4-bit weight quantization: share of route-mediated damage removed by restoring the clean routing of the 10\% of tokens ranked highest by each selector (95\% CI). Random selection removes 10\% in expectation.}
+\label{tab:repair}
+\begin{tabular}{lll}
+\toprule
+Model & Selector & Damage removed at 10\% budget \\
+\midrule
+Base (88M) & learned: raw margin & 0.455 \scriptsize{[0.313, 0.624]} \\
+Base (88M) & learned: margins & 0.455 \scriptsize{[0.313, 0.624]} \\
+Base (88M) & learned: margins + first-order & 0.428 \scriptsize{[0.292, 0.590]} \\
+Base (88M) & learned: margins + first-order + curvature & 0.521 \scriptsize{[0.381, 0.674]} \\
+Base (88M) & learned: all features & 0.498 \scriptsize{[0.359, 0.641]} \\
+Base (88M) & heuristic: smallest raw margin & 0.406 \scriptsize{[0.277, 0.562]} \\
+Base (88M) & heuristic: smallest first-order flip distance & 0.401 \scriptsize{[0.277, 0.552]} \\
+Base (88M) & heuristic: smallest second-order flip distance & 0.401 \scriptsize{[0.277, 0.552]} \\
+Base (88M) & oracle (true damage) & 1.000 \scriptsize{[1.000, 1.000]} \\
+Base (88M) & random (expected) & 0.100 \scriptsize{[0.100, 0.100]} \\
+Granite (1.3B) & learned: raw margin & 0.120 \scriptsize{[0.077, 0.181]} \\
+Granite (1.3B) & learned: margins & 0.137 \scriptsize{[0.079, 0.230]} \\
+Granite (1.3B) & learned: margins + first-order & 0.135 \scriptsize{[0.075, 0.224]} \\
+Granite (1.3B) & learned: margins + first-order + curvature & 0.127 \scriptsize{[0.073, 0.234]} \\
+Granite (1.3B) & learned: all features & 0.132 \scriptsize{[0.070, 0.228]} \\
+Granite (1.3B) & heuristic: smallest raw margin & 0.167 \scriptsize{[0.106, 0.241]} \\
+Granite (1.3B) & heuristic: smallest first-order flip distance & 0.146 \scriptsize{[0.086, 0.242]} \\
+Granite (1.3B) & heuristic: smallest second-order flip distance & 0.145 \scriptsize{[0.085, 0.240]} \\
+Granite (1.3B) & oracle (true damage) & 0.917 \scriptsize{[0.873, 0.943]} \\
+Granite (1.3B) & random (expected) & 0.100 \scriptsize{[0.100, 0.100]} \\
+\bottomrule
+\end{tabular}
+\end{table}
