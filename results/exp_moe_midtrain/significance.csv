@@ -1,0 +1,36 @@
+label,baseline,compared,delta_auroc,delta_auroc_lo,delta_auroc_hi,p_auroc,delta_auprc,p_auprc,p_auroc_holm,primary
+y_consequential,margins + first-order,margins + first-order + curvature,-0.0013,-0.0111,0.0081,0.5974,-0.002,0.6184,1.0,True
+y_consequential,margins + first-order,first-order + loss curvature,-0.0026,-0.0103,0.0029,0.7333,0.0087,0.3417,1.0,False
+y_consequential,margins + first-order,first-order + margin curvature,0.002,-0.0044,0.0087,0.2837,-0.0045,0.8432,0.8511,False
+y_consequential,margins,margins + first-order,0.0322,0.0105,0.0529,0.003,0.0092,0.2228,0.015,False
+y_consequential,raw margin,normalized margin,0.0041,0.0008,0.0082,0.004,0.0024,0.013,0.016,False
+y_noise,margins + first-order,margins + first-order + curvature,0.0009,-0.0002,0.0019,0.0569,0.0089,0.1219,0.1707,True
+y_noise,margins + first-order,first-order + loss curvature,-0.0001,-0.0006,0.0003,0.7083,-0.0004,0.5425,1.0,False
+y_noise,margins + first-order,first-order + margin curvature,0.001,-0.0,0.002,0.027,0.0098,0.1079,0.108,False
+y_noise,margins,margins + first-order,0.0071,0.0048,0.0094,0.001,0.0201,0.0809,0.005,False
+y_noise,raw margin,normalized margin,-0.0001,-0.0011,0.0007,0.6124,0.0011,0.3407,1.0,False
+y_hidden,margins + first-order,margins + first-order + curvature,-0.0002,-0.0005,0.0002,0.8691,-0.0025,0.9101,1.0,True
+y_hidden,margins + first-order,first-order + loss curvature,-0.0001,-0.0003,0.0002,0.6454,-0.0017,0.9091,1.0,False
+y_hidden,margins + first-order,first-order + margin curvature,-0.0002,-0.0004,0.0001,0.9191,-0.0007,0.7313,1.0,False
+y_hidden,margins,margins + first-order,0.0001,-0.0002,0.0005,0.2108,0.0004,0.3606,1.0,False
+y_hidden,raw margin,normalized margin,-0.0014,-0.0024,-0.0004,0.998,-0.0084,0.973,1.0,False
+y_harmful,margins + first-order,margins + first-order + curvature,0.0152,0.0059,0.0251,0.002,0.089,0.001,0.008,True
+y_harmful,margins + first-order,first-order + loss curvature,0.0129,0.0031,0.0228,0.008,0.0905,0.001,0.024,False
+y_harmful,margins + first-order,first-order + margin curvature,0.0017,-0.0005,0.0038,0.0689,-0.0008,0.6683,0.1378,False
+y_harmful,margins,margins + first-order,0.0617,0.0515,0.0715,0.001,0.0511,0.001,0.005,False
+y_harmful,raw margin,normalized margin,0.0001,-0.0008,0.0011,0.3886,0.0005,0.3996,0.3886,False
+y_quant,margins + first-order,margins + first-order + curvature,-0.0004,-0.0016,0.0009,0.7293,0.0115,0.0989,1.0,True
+y_quant,margins + first-order,first-order + loss curvature,-0.0002,-0.0007,0.0003,0.8112,0.0006,0.4246,1.0,False
+y_quant,margins + first-order,first-order + margin curvature,-0.0002,-0.0013,0.001,0.6484,0.015,0.023,1.0,False
+y_quant,margins,margins + first-order,0.0003,-0.0008,0.0015,0.3007,-0.0069,0.8791,1.0,False
+y_quant,raw margin,normalized margin,-0.0009,-0.0023,0.0006,0.8731,0.0059,0.2318,1.0,False
+y_quant_harmful,margins + first-order,margins + first-order + curvature,-0.0012,-0.0039,0.0015,0.8352,0.0073,0.1548,1.0,True
+y_quant_harmful,margins + first-order,first-order + loss curvature,-0.0005,-0.0013,0.0001,0.9451,-0.0036,0.8761,1.0,False
+y_quant_harmful,margins + first-order,first-order + margin curvature,-0.0008,-0.0035,0.002,0.7253,0.0134,0.027,1.0,False
+y_quant_harmful,margins,margins + first-order,0.0012,-0.0021,0.0042,0.2348,-0.0122,0.965,1.0,False
+y_quant_harmful,raw margin,normalized margin,0.0001,-0.0021,0.0022,0.4715,0.0056,0.024,1.0,False
+y_quant_damage_given_flip,margins + first-order,margins + first-order + curvature,-0.0373,-0.0629,-0.0143,0.999,-0.0249,0.989,1.0,True
+y_quant_damage_given_flip,margins + first-order,first-order + loss curvature,-0.0024,-0.0188,0.0135,0.6404,-0.0013,0.5934,1.0,False
+y_quant_damage_given_flip,margins + first-order,first-order + margin curvature,-0.0363,-0.0592,-0.0156,1.0,-0.0263,0.999,1.0,False
+y_quant_damage_given_flip,margins,margins + first-order,0.024,-0.011,0.0573,0.0909,0.0311,0.027,0.4545,False
+y_quant_damage_given_flip,raw margin,normalized margin,-0.0012,-0.0073,0.0068,0.5804,0.0015,0.2947,1.0,False

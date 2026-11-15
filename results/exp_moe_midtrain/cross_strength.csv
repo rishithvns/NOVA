@@ -1,0 +1,49 @@
+features,train_sigma,test_sigma,auroc
+margins,0.05,0.05,0.9898
+margins,0.05,0.1,0.9879
+margins,0.05,0.2,0.9733
+margins,0.05,0.4,0.9452
+margins,0.1,0.05,0.9914
+margins,0.1,0.1,0.9881
+margins,0.1,0.2,0.9734
+margins,0.1,0.4,0.9457
+margins,0.2,0.05,0.9911
+margins,0.2,0.1,0.988
+margins,0.2,0.2,0.9735
+margins,0.2,0.4,0.9459
+margins,0.4,0.05,0.9882
+margins,0.4,0.1,0.9865
+margins,0.4,0.2,0.9731
+margins,0.4,0.4,0.9458
+margins + first-order,0.05,0.05,0.9878
+margins + first-order,0.05,0.1,0.9858
+margins + first-order,0.05,0.2,0.9739
+margins + first-order,0.05,0.4,0.9498
+margins + first-order,0.1,0.05,0.9907
+margins + first-order,0.1,0.1,0.9879
+margins + first-order,0.1,0.2,0.9757
+margins + first-order,0.1,0.4,0.9508
+margins + first-order,0.2,0.05,0.9889
+margins + first-order,0.2,0.1,0.9876
+margins + first-order,0.2,0.2,0.9761
+margins + first-order,0.2,0.4,0.9518
+margins + first-order,0.4,0.05,0.9837
+margins + first-order,0.4,0.1,0.9841
+margins + first-order,0.4,0.2,0.9753
+margins + first-order,0.4,0.4,0.9529
+margins + first-order + curvature,0.05,0.05,0.9861
+margins + first-order + curvature,0.05,0.1,0.9862
+margins + first-order + curvature,0.05,0.2,0.9729
+margins + first-order + curvature,0.05,0.4,0.9511
+margins + first-order + curvature,0.1,0.05,0.989
+margins + first-order + curvature,0.1,0.1,0.9876
+margins + first-order + curvature,0.1,0.2,0.9745
+margins + first-order + curvature,0.1,0.4,0.9515
+margins + first-order + curvature,0.2,0.05,0.9891
+margins + first-order + curvature,0.2,0.1,0.9874
+margins + first-order + curvature,0.2,0.2,0.9758
+margins + first-order + curvature,0.2,0.4,0.9525
+margins + first-order + curvature,0.4,0.05,0.9841
+margins + first-order + curvature,0.4,0.1,0.9837
+margins + first-order + curvature,0.4,0.2,0.9743
+margins + first-order + curvature,0.4,0.4,0.9537

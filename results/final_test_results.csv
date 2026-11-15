@@ -1,0 +1,6 @@
+model,checkpoint,note,total_params_M,active_params_M,pretrain_test_loss,pretrain_test_perplexity,pretrain_test_tokens,smoltalk_test_loss (response tokens),smoltalk_test_perplexity
+dense,ckpt_last.pt,"pretrained, final checkpoint",88.1,88.1,3.4192,30.545,4496896,,
+moe,ckpt_last.pt,"pretrained, final checkpoint",130.59,88.12,3.3818,29.424,4496896,,
+moe_nobal,ckpt_last.pt,"pretrained, final checkpoint",130.59,88.12,3.39,29.666,4496896,,
+dense_sft,ckpt_best.pt,"instruction-tuned, best on chat validation",88.1,88.1,4.0513,57.472,4496896,1.9267,6.866
+moe_sft,ckpt_best.pt,"instruction-tuned, best on chat validation",130.59,88.12,3.9953,54.34,4496896,1.8956,6.656

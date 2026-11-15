@@ -1,0 +1,71 @@
+selector,budget,recovered_share,ci_lo,ci_hi
+learned: raw margin,0.01,0.0439,0.0159,0.0823
+learned: raw margin,0.02,0.0763,0.0396,0.1293
+learned: raw margin,0.05,0.2716,0.1642,0.4012
+learned: raw margin,0.1,0.4547,0.3132,0.6242
+learned: raw margin,0.2,0.8507,0.7545,0.9213
+learned: raw margin,0.3,0.9377,0.8737,0.9848
+learned: raw margin,0.5,1.0,1.0,1.0
+learned: margins,0.01,0.0423,0.0149,0.0803
+learned: margins,0.02,0.071,0.0367,0.1222
+learned: margins,0.05,0.2905,0.1751,0.4283
+learned: margins,0.1,0.4547,0.3132,0.6242
+learned: margins,0.2,0.8438,0.7458,0.9155
+learned: margins,0.3,0.9377,0.8737,0.9848
+learned: margins,0.5,1.0,1.0,1.0
+learned: margins + first-order,0.01,0.0292,0.008,0.0605
+learned: margins + first-order,0.02,0.0828,0.0407,0.1416
+learned: margins + first-order,0.05,0.2939,0.1873,0.4353
+learned: margins + first-order,0.1,0.4276,0.2916,0.5898
+learned: margins + first-order,0.2,0.725,0.5451,0.8923
+learned: margins + first-order,0.3,0.9221,0.8547,0.9722
+learned: margins + first-order,0.5,1.0,0.9999,1.0
+learned: margins + first-order + curvature,0.01,0.0689,0.0206,0.1428
+learned: margins + first-order + curvature,0.02,0.1068,0.0527,0.1882
+learned: margins + first-order + curvature,0.05,0.3158,0.1958,0.4643
+learned: margins + first-order + curvature,0.1,0.521,0.381,0.6738
+learned: margins + first-order + curvature,0.2,0.7336,0.5495,0.9029
+learned: margins + first-order + curvature,0.3,0.7985,0.6001,0.9668
+learned: margins + first-order + curvature,0.5,1.0,0.9999,1.0
+learned: all features,0.01,0.0429,0.0134,0.09
+learned: all features,0.02,0.091,0.0406,0.1656
+learned: all features,0.05,0.2695,0.1635,0.402
+learned: all features,0.1,0.4976,0.3592,0.6407
+learned: all features,0.2,0.7117,0.5376,0.8793
+learned: all features,0.3,0.8029,0.6105,0.9704
+learned: all features,0.5,0.9977,0.9918,1.0
+heuristic: smallest raw margin,0.01,0.0634,0.0298,0.1145
+heuristic: smallest raw margin,0.02,0.0974,0.0514,0.171
+heuristic: smallest raw margin,0.05,0.1763,0.1086,0.2745
+heuristic: smallest raw margin,0.1,0.4055,0.2771,0.5618
+heuristic: smallest raw margin,0.2,0.6777,0.499,0.8461
+heuristic: smallest raw margin,0.3,0.9258,0.8608,0.9768
+heuristic: smallest raw margin,0.5,1.0,1.0,1.0
+heuristic: smallest first-order flip distance,0.01,0.0664,0.0313,0.1238
+heuristic: smallest first-order flip distance,0.02,0.0902,0.0454,0.1587
+heuristic: smallest first-order flip distance,0.05,0.2276,0.1441,0.3495
+heuristic: smallest first-order flip distance,0.1,0.4014,0.2767,0.5523
+heuristic: smallest first-order flip distance,0.2,0.699,0.519,0.8672
+heuristic: smallest first-order flip distance,0.3,0.7804,0.5846,0.9463
+heuristic: smallest first-order flip distance,0.5,0.9791,0.9524,0.9955
+heuristic: smallest second-order flip distance,0.01,0.0664,0.0313,0.1238
+heuristic: smallest second-order flip distance,0.02,0.0902,0.0454,0.1587
+heuristic: smallest second-order flip distance,0.05,0.2276,0.1441,0.3495
+heuristic: smallest second-order flip distance,0.1,0.4014,0.2767,0.5523
+heuristic: smallest second-order flip distance,0.2,0.699,0.519,0.8672
+heuristic: smallest second-order flip distance,0.3,0.7804,0.5846,0.9463
+heuristic: smallest second-order flip distance,0.5,0.9791,0.9524,0.9955
+oracle (true damage),0.01,0.8114,0.7236,0.8725
+oracle (true damage),0.02,0.9582,0.935,0.9736
+oracle (true damage),0.05,1.0,1.0,1.0
+oracle (true damage),0.1,1.0,1.0,1.0
+oracle (true damage),0.2,1.0,1.0,1.0
+oracle (true damage),0.3,1.0,1.0,1.0
+oracle (true damage),0.5,1.0,1.0,1.0
+random (expected),0.01,0.01,0.01,0.01
+random (expected),0.02,0.02,0.02,0.02
+random (expected),0.05,0.05,0.05,0.05
+random (expected),0.1,0.1,0.1,0.1
+random (expected),0.2,0.2,0.2,0.2
+random (expected),0.3,0.3,0.3,0.3
+random (expected),0.5,0.5,0.5,0.5

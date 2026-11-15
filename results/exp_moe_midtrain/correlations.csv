@@ -1,0 +1,13 @@
+feature,noise_flip_p@0.4,min_up_dist,dloss_near,dloss_near_fut
+raw_margin,-0.761,0.918,0.046,0.038
+norm_margin,-0.77,0.934,0.048,0.039
+margin_sens,0.345,-0.435,0.011,0.019
+lin_score,-0.823,0.999,0.035,0.024
+grad_h,-0.096,0.155,0.0,0.004
+hess_top,-0.003,0.03,-0.237,-0.205
+hess_trace,-0.013,0.03,-0.014,-0.017
+margin_curv,0.053,-0.067,0.004,0.01
+margin_hess_top,0.024,-0.059,0.004,0.017
+quad_score,-0.823,0.999,0.035,0.025
+entropy,0.152,-0.223,-0.016,-0.017
+token_loss,-0.101,0.125,-0.026,-0.018

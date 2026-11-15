@@ -1,0 +1,73 @@
+label,features,classifier,n,positive_rate,auroc,auroc_lo,auroc_hi,auprc,auprc_lo,auprc_hi
+y_consequential,raw margin,logreg,6144,0.0042,0.9116,0.8782,0.9407,0.0309,0.0192,0.0598
+y_consequential,normalized margin,logreg,6144,0.0042,0.9114,0.8776,0.9407,0.0289,0.0186,0.0496
+y_consequential,margins,logreg,6144,0.0042,0.9152,0.8845,0.942,0.0304,0.0193,0.0542
+y_consequential,margins + first-order,logreg,6144,0.0042,0.9298,0.9052,0.9531,0.0452,0.0265,0.0859
+y_consequential,margins + first-order + curvature,logreg,6144,0.0042,0.9243,0.8961,0.9499,0.1091,0.0334,0.2505
+y_consequential,first-order + loss curvature,logreg,6144,0.0042,0.9264,0.9016,0.9511,0.1241,0.0344,0.2683
+y_consequential,first-order + margin curvature,logreg,6144,0.0042,0.9268,0.8955,0.9515,0.0438,0.0257,0.0919
+y_consequential,all features,logreg,6144,0.0042,0.9506,0.9292,0.969,0.1716,0.063,0.3285
+y_noise,raw margin,logreg,6144,0.096,0.9315,0.9225,0.9398,0.5313,0.4928,0.5791
+y_noise,normalized margin,logreg,6144,0.096,0.9308,0.9215,0.9394,0.5212,0.4813,0.5723
+y_noise,margins,logreg,6144,0.096,0.9314,0.9224,0.9398,0.5285,0.4894,0.5786
+y_noise,margins + first-order,logreg,6144,0.096,0.9438,0.9361,0.9511,0.5786,0.5331,0.63
+y_noise,margins + first-order + curvature,logreg,6144,0.096,0.9459,0.9388,0.9529,0.5846,0.5387,0.6368
+y_noise,first-order + loss curvature,logreg,6144,0.096,0.9437,0.9359,0.9509,0.5783,0.5336,0.6303
+y_noise,first-order + margin curvature,logreg,6144,0.096,0.9461,0.939,0.953,0.5873,0.5421,0.6374
+y_noise,all features,logreg,6144,0.096,0.9457,0.9386,0.9527,0.5836,0.5382,0.6353
+y_hidden,raw margin,logreg,6144,0.1955,0.9311,0.9248,0.9368,0.7081,0.6803,0.7362
+y_hidden,normalized margin,logreg,6144,0.1955,0.9301,0.9237,0.9359,0.7094,0.6802,0.737
+y_hidden,margins,logreg,6144,0.1955,0.9309,0.9246,0.9367,0.7074,0.6791,0.7353
+y_hidden,margins + first-order,logreg,6144,0.1955,0.931,0.9245,0.9368,0.7114,0.6819,0.7402
+y_hidden,margins + first-order + curvature,logreg,6144,0.1955,0.9306,0.9243,0.9365,0.7057,0.6757,0.7351
+y_hidden,first-order + loss curvature,logreg,6144,0.1955,0.9307,0.9243,0.9366,0.7076,0.6778,0.7364
+y_hidden,first-order + margin curvature,logreg,6144,0.1955,0.9309,0.9245,0.9367,0.7098,0.6801,0.7386
+y_hidden,all features,logreg,6144,0.1955,0.9309,0.9248,0.9369,0.7081,0.6793,0.7369
+y_ft,raw margin,logreg,6144,0.2795,0.7727,0.7606,0.7856,0.5145,0.4914,0.5395
+y_ft,normalized margin,logreg,6144,0.2795,0.7724,0.76,0.7848,0.5211,0.497,0.5463
+y_ft,margins,logreg,6144,0.2795,0.7727,0.7604,0.7856,0.5174,0.4942,0.5429
+y_ft,margins + first-order,logreg,6144,0.2795,0.7821,0.7699,0.7941,0.5291,0.5032,0.5573
+y_ft,margins + first-order + curvature,logreg,6144,0.2795,0.7816,0.7693,0.794,0.528,0.5016,0.5555
+y_ft,first-order + loss curvature,logreg,6144,0.2795,0.7816,0.7696,0.7937,0.5285,0.5027,0.5564
+y_ft,first-order + margin curvature,logreg,6144,0.2795,0.782,0.7697,0.7942,0.529,0.5028,0.5569
+y_ft,all features,logreg,6144,0.2795,0.7819,0.7696,0.7943,0.5292,0.5027,0.5573
+y_ft_input,raw margin,logreg,6144,0.1709,0.6928,0.6753,0.7115,0.2548,0.236,0.2761
+y_ft_input,normalized margin,logreg,6144,0.1709,0.6943,0.6763,0.713,0.2557,0.2363,0.2781
+y_ft_input,margins,logreg,6144,0.1709,0.6926,0.675,0.7116,0.2539,0.235,0.2758
+y_ft_input,margins + first-order,logreg,6144,0.1709,0.7161,0.6997,0.7326,0.2742,0.253,0.2984
+y_ft_input,margins + first-order + curvature,logreg,6144,0.1709,0.7152,0.6992,0.7317,0.2754,0.2545,0.2995
+y_ft_input,first-order + loss curvature,logreg,6144,0.1709,0.7162,0.6998,0.7329,0.2743,0.2534,0.2981
+y_ft_input,first-order + margin curvature,logreg,6144,0.1709,0.7151,0.6989,0.7319,0.2752,0.2543,0.2995
+y_ft_input,all features,logreg,6144,0.1709,0.7151,0.6988,0.7319,0.2755,0.2548,0.2993
+y_harmful,raw margin,logreg,6144,0.0981,0.7311,0.7137,0.7478,0.2215,0.1992,0.2492
+y_harmful,normalized margin,logreg,6144,0.0981,0.7317,0.7147,0.7487,0.2235,0.2015,0.2507
+y_harmful,margins,logreg,6144,0.0981,0.7311,0.7138,0.7484,0.2244,0.2031,0.2503
+y_harmful,margins + first-order,logreg,6144,0.0981,0.7975,0.7819,0.8135,0.2737,0.2477,0.3063
+y_harmful,margins + first-order + curvature,logreg,6144,0.0981,0.8045,0.788,0.82,0.3432,0.3116,0.3807
+y_harmful,first-order + loss curvature,logreg,6144,0.0981,0.8058,0.7898,0.8217,0.3436,0.312,0.3814
+y_harmful,first-order + margin curvature,logreg,6144,0.0981,0.7966,0.7805,0.8133,0.2727,0.2475,0.3064
+y_harmful,all features,logreg,6144,0.0981,0.8576,0.846,0.8684,0.3855,0.3568,0.4182
+y_quant,raw margin,logreg,6144,0.0744,0.9269,0.9199,0.9341,0.4369,0.3976,0.4794
+y_quant,normalized margin,logreg,6144,0.0744,0.9254,0.9179,0.9332,0.4202,0.3827,0.4626
+y_quant,margins,logreg,6144,0.0744,0.9266,0.9192,0.934,0.4366,0.3976,0.4774
+y_quant,margins + first-order,logreg,6144,0.0744,0.9276,0.9202,0.9349,0.4152,0.3735,0.4615
+y_quant,margins + first-order + curvature,logreg,6144,0.0744,0.9271,0.9197,0.9346,0.4099,0.3705,0.4543
+y_quant,first-order + loss curvature,logreg,6144,0.0744,0.9272,0.9198,0.9346,0.4132,0.3744,0.459
+y_quant,first-order + margin curvature,logreg,6144,0.0744,0.9274,0.92,0.9349,0.4126,0.3718,0.4583
+y_quant,all features,logreg,6144,0.0744,0.9265,0.919,0.9341,0.4101,0.3696,0.4551
+y_quant_harmful,raw margin,logreg,6144,0.0369,0.9022,0.8909,0.9132,0.1993,0.1709,0.2373
+y_quant_harmful,normalized margin,logreg,6144,0.0369,0.899,0.8873,0.9106,0.1847,0.1607,0.2189
+y_quant_harmful,margins,logreg,6144,0.0369,0.9014,0.8902,0.9124,0.1967,0.1691,0.2336
+y_quant_harmful,margins + first-order,logreg,6144,0.0369,0.9007,0.8888,0.9118,0.1812,0.1578,0.2122
+y_quant_harmful,margins + first-order + curvature,logreg,6144,0.0369,0.9026,0.8912,0.9132,0.1926,0.168,0.228
+y_quant_harmful,first-order + loss curvature,logreg,6144,0.0369,0.903,0.8915,0.9139,0.1932,0.1686,0.2287
+y_quant_harmful,first-order + margin curvature,logreg,6144,0.0369,0.9004,0.8885,0.9114,0.1796,0.1565,0.2086
+y_quant_harmful,all features,logreg,6144,0.0369,0.901,0.8895,0.9119,0.1882,0.1644,0.2203
+y_quant_damage_given_flip,raw margin,logreg,457,0.4967,0.5039,0.4627,0.545,0.5258,0.4676,0.5832
+y_quant_damage_given_flip,normalized margin,logreg,457,0.4967,0.518,0.4746,0.5618,0.5318,0.4748,0.591
+y_quant_damage_given_flip,margins,logreg,457,0.4967,0.5394,0.4931,0.585,0.5398,0.4861,0.5984
+y_quant_damage_given_flip,margins + first-order,logreg,457,0.4967,0.5245,0.4739,0.5713,0.5166,0.4646,0.5769
+y_quant_damage_given_flip,margins + first-order + curvature,logreg,457,0.4967,0.5887,0.5299,0.6399,0.5776,0.5144,0.647
+y_quant_damage_given_flip,first-order + loss curvature,logreg,457,0.4967,0.5966,0.54,0.6462,0.5822,0.5189,0.6506
+y_quant_damage_given_flip,first-order + margin curvature,logreg,457,0.4967,0.5105,0.4581,0.556,0.5056,0.4554,0.5645
+y_quant_damage_given_flip,all features,logreg,457,0.4967,0.5804,0.5226,0.6338,0.5713,0.5069,0.6417

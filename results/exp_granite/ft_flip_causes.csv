@@ -1,0 +1,5 @@
+layer,flipped_tokens,flip_rate_all_tokens,share: router input changed,share: router weights changed,share: either change alone flips,share: only both changes together flip
+3,748,0.3652,0.4893,0.0882,0.3008,0.1217
+9,994,0.4854,0.5322,0.0845,0.2827,0.1006
+15,986,0.4814,0.5974,0.0558,0.2373,0.1095
+21,1042,0.5088,0.4712,0.1123,0.3282,0.0883

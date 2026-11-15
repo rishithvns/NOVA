@@ -1,0 +1,21 @@
+label,features,classifier,n,positive_rate,auroc,auroc_lo,auroc_hi,auprc,auprc_lo,auprc_hi
+y_consequential,margins,gbt,6144,0.0042,0.8847,0.847,0.9167,0.0244,0.0138,0.0719
+y_consequential,margins + first-order,gbt,6144,0.0042,0.9085,0.8638,0.943,0.0331,0.0207,0.0678
+y_consequential,margins + first-order + curvature,gbt,6144,0.0042,0.9085,0.8583,0.9463,0.0406,0.0242,0.0795
+y_consequential,all features,gbt,6144,0.0042,0.9123,0.8538,0.9505,0.0592,0.032,0.1278
+y_noise,margins,gbt,6144,0.096,0.9246,0.9137,0.9338,0.5155,0.4726,0.5582
+y_noise,margins + first-order,gbt,6144,0.096,0.9384,0.9305,0.9461,0.5306,0.4809,0.5856
+y_noise,margins + first-order + curvature,gbt,6144,0.096,0.9419,0.9345,0.9494,0.5446,0.4991,0.5948
+y_noise,all features,gbt,6144,0.096,0.9438,0.937,0.9509,0.5701,0.5272,0.6242
+y_harmful,margins,gbt,6144,0.0981,0.6991,0.684,0.7147,0.2055,0.1855,0.2308
+y_harmful,margins + first-order,gbt,6144,0.0981,0.7918,0.7766,0.8074,0.2511,0.2282,0.2798
+y_harmful,margins + first-order + curvature,gbt,6144,0.0981,0.8329,0.8185,0.8467,0.3763,0.3389,0.4153
+y_harmful,all features,gbt,6144,0.0981,0.8713,0.8587,0.8832,0.4155,0.3829,0.4515
+y_quant_harmful,margins,gbt,6144,0.0369,0.8949,0.8818,0.9067,0.1925,0.1613,0.2366
+y_quant_harmful,margins + first-order,gbt,6144,0.0369,0.8975,0.8854,0.9091,0.2135,0.1773,0.2665
+y_quant_harmful,margins + first-order + curvature,gbt,6144,0.0369,0.8923,0.8799,0.9041,0.2105,0.1769,0.2597
+y_quant_harmful,all features,gbt,6144,0.0369,0.8915,0.8791,0.9041,0.1959,0.1678,0.2359
+y_quant_damage_given_flip,margins,gbt,457,0.4967,0.4543,0.4112,0.5016,0.4939,0.4454,0.5512
+y_quant_damage_given_flip,margins + first-order,gbt,457,0.4967,0.4425,0.3935,0.4882,0.4651,0.4229,0.519
+y_quant_damage_given_flip,margins + first-order + curvature,gbt,457,0.4967,0.5353,0.4899,0.5783,0.5507,0.501,0.6046
+y_quant_damage_given_flip,all features,gbt,457,0.4967,0.5396,0.4874,0.5857,0.5364,0.4772,0.6011

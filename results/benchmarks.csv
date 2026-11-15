@@ -1,0 +1,31 @@
+model,task,n,acc,acc_norm,acc_ci,acc_norm_ci
+random guess,hellaswag,1000,0.25,0.25,,
+random guess,arc_easy,1000,0.25,0.25,,
+random guess,piqa,1000,0.5,0.5,,
+random guess,sciq,1000,0.25,0.25,,
+random guess,arc_challenge,1000,0.25,0.25,,
+random guess,openbookqa,500,0.25,0.25,,
+dense,hellaswag,1000,0.263,0.284,0.0273,0.0279
+dense,arc_easy,1000,0.415,0.386,0.0305,0.0302
+dense,piqa,1000,0.572,0.598,0.0307,0.0304
+dense,sciq,1000,0.625,0.56,0.03,0.0308
+dense,arc_challenge,1000,0.19,0.204,0.0243,0.025
+dense,openbookqa,500,0.142,0.256,0.0306,0.0383
+moe,hellaswag,1000,0.255,0.298,0.027,0.0283
+moe,arc_easy,1000,0.435,0.403,0.0307,0.0304
+moe,piqa,1000,0.576,0.588,0.0306,0.0305
+moe,sciq,1000,0.623,0.564,0.03,0.0307
+moe,arc_challenge,1000,0.196,0.218,0.0246,0.0256
+moe,openbookqa,500,0.148,0.25,0.0311,0.038
+dense_sft,hellaswag,1000,0.263,0.273,0.0273,0.0276
+dense_sft,arc_easy,1000,0.424,0.413,0.0306,0.0305
+dense_sft,piqa,1000,0.562,0.579,0.0308,0.0306
+dense_sft,sciq,1000,0.642,0.606,0.0297,0.0303
+dense_sft,arc_challenge,1000,0.184,0.214,0.024,0.0254
+dense_sft,openbookqa,500,0.14,0.24,0.0304,0.0374
+moe_sft,hellaswag,1000,0.269,0.275,0.0275,0.0277
+moe_sft,arc_easy,1000,0.402,0.393,0.0304,0.0303
+moe_sft,piqa,1000,0.549,0.561,0.0308,0.0308
+moe_sft,sciq,1000,0.632,0.602,0.0299,0.0303
+moe_sft,arc_challenge,1000,0.195,0.214,0.0246,0.0254
+moe_sft,openbookqa,500,0.144,0.252,0.0308,0.0381
