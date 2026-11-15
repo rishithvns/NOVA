@@ -1,0 +1,11 @@
+{
+  "y_consequential": "consequential instability: flips under upstream noise AND the flip is harmful",
+  "y_noise": "upstream noise (0.1 x embedding RMS), flip in >= half the samples",
+  "y_hidden": "router-input noise (sanity check)",
+  "y_ft": "routing changed during instruction fine-tuning",
+  "y_ft_input": "fine-tuning flip caused by the router INPUT changing (router weights alone would not flip)",
+  "y_harmful": "nearest flip in the top 20% by loss increase (> 0.0087 nats)",
+  "y_quant": "routing changes under 4-bit weight quantization",
+  "y_quant_harmful": "flips under quantization AND restoring the clean routing lowers the loss (route-mediated damage)",
+  "y_quant_damage_given_flip": "among tokens that flipped under quantization: harmful (1) vs harmless (0); the comparison where the router margin failed in arXiv 2608.11212 (AUC 0.49)"
+}

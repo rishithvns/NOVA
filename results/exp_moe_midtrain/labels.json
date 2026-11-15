@@ -1,0 +1,9 @@
+{
+  "y_consequential": "consequential instability: flips under upstream noise AND the flip is harmful",
+  "y_noise": "upstream noise (0.4 x embedding RMS), flip in >= half the samples",
+  "y_hidden": "router-input noise (sanity check)",
+  "y_harmful": "nearest flip raises own loss by > 0.1 nats",
+  "y_quant": "routing changes under 4-bit weight quantization",
+  "y_quant_harmful": "flips under quantization AND restoring the clean routing lowers the loss (route-mediated damage)",
+  "y_quant_damage_given_flip": "among tokens that flipped under quantization: harmful (1) vs harmless (0); the comparison where the router margin failed in arXiv 2608.11212 (AUC 0.49)"
+}
