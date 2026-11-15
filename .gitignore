@@ -1,0 +1,8 @@
+# large training artefacts are not stored in the repository
+data/
+runs/
+*.pt
+*.bin
+*.npy
+__pycache__/
+.ipynb_checkpoints/

@@ -1,0 +1,10 @@
+torch>=2.5          # CUDA build for your GPU (cu128 for RTX 50-series)
+numpy
+tokenizers
+pandas
+pyarrow
+matplotlib
+scikit-learn
+huggingface_hub
+datasets            # chat data (B04); benchmarks fall back to parquet files without it
+transformers==5.22.0  # only for the IBM Granite replication (B08)
