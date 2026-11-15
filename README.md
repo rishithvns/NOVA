@@ -362,4 +362,4 @@ The token files (`train.bin` is 1.6 GB) and the checkpoints are too large for gi
 | Pratham S Reddy | PES1UG24AM200 |
 | Rufus Thomas | PES1UG24AM232 |
 
-<sub>We thank the AFML course staff at PES University for their feedback across the reviews; Hugging Face and AllenAI for the open datasets; and IBM for releasing the Granite MoE models under Apache-2.0.</sub>
+
